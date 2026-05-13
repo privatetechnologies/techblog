@@ -3,21 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechBlog | Latest Technology News & Tutorials</title>
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="N3pEM14TCIwLpZz7ueVOT5dnSNU9VIU01SP_0j1oBMU" />
+    
+    <meta name="description" content="TechBlog - Latest insights on ERP, Business Technology, Cloud Computing, and Digital Transformation. Expert articles for modern businesses.">
+    <meta name="keywords" content="ERP, Business Technology, Cloud Computing, Digital Transformation, Xinzex">
+    <meta name="author" content="TechBlog">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Rest of your head content remains same -->
+    <title>TechBlog | Business Technology & ERP Insights</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <!-- Rest of your body -->
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <h2>Tech<span>Blog</span></h2>
+                <a href="/" style="text-decoration: none;"><h2>Tech<span>Blog</span></h2></a>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blogs.html">All Blogs</a></li>
+                <li><a href="/categories/erp.html">ERP</a></li>
+                <li><a href="/categories/cloud.html">Cloud</a></li>
+                <li><a href="/categories/ai.html">AI</a></li>
+                <li><a href="/about.html">About</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -28,52 +43,97 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero">
         <div class="hero-content">
-            <h1>Welcome to <span>TechBlog</span></h1>
-            <p>Your daily dose of technology insights, tutorials, and latest trends</p>
-            <a href="#blogs" class="btn">Explore Blogs</a>
+            <h1>Tech<span>Blog</span></h1>
+            <p>Expert insights on ERP, Business Technology, and Digital Transformation</p>
+            <a href="/blogs.html" class="btn">Explore All Blogs →</a>
         </div>
     </section>
 
-    <!-- Blogs Section -->
-    <section id="blogs" class="blogs">
+    <!-- Featured Blogs Section -->
+    <section class="featured-blogs">
         <div class="container">
-            <h2 class="section-title">Latest Tech Blogs</h2>
-            <div class="blog-grid" id="blogGrid">
-                <!-- Blogs will be loaded dynamically via JavaScript -->
+            <h2 class="section-title">Featured Articles</h2>
+            <div class="blog-grid" id="featuredBlogs">
+                <!-- Featured blogs load here -->
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Categories Section -->
+    <section class="categories">
         <div class="container">
-            <h2 class="section-title">About Us</h2>
-            <div class="about-content">
-                <p>TechBlog is your number one source for all things technology. We're dedicated to providing you the best of tech tutorials, news, and insights.</p>
-                <p>Founded in 2024, TechBlog has come a long way from its beginnings. We strive to make complex technology concepts simple and accessible to everyone.</p>
+            <h2 class="section-title">Explore by Category</h2>
+            <div class="category-grid">
+                <a href="/categories/erp.html" class="category-card">
+                    <div class="category-icon">🏢</div>
+                    <h3>ERP</h3>
+                    <p>Enterprise Resource Planning insights</p>
+                </a>
+                <a href="/categories/cloud.html" class="category-card">
+                    <div class="category-icon">☁️</div>
+                    <h3>Cloud Computing</h3>
+                    <p>Cloud strategies & solutions</p>
+                </a>
+                <a href="/categories/ai.html" class="category-card">
+                    <div class="category-icon">🤖</div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>AI in business transformation</p>
+                </a>
+                <a href="/categories/security.html" class="category-card">
+                    <div class="category-icon">🔒</div>
+                    <h3>Cybersecurity</h3>
+                    <p>Protecting digital assets</p>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- Newsletter Section -->
+    <section class="newsletter">
         <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            <form id="contactForm" class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest tech insights delivered to your inbox</p>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe →</button>
+                </form>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 TechBlog. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechBlog</h3>
+                    <p>Expert insights on business technology</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/blogs.html">All Blogs</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="/categories/erp.html">ERP</a></li>
+                        <li><a href="/categories/cloud.html">Cloud Computing</a></li>
+                        <li><a href="/categories/ai.html">AI</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechBlog. All rights reserved.</p>
+                <p><a href="/privacy.html">Privacy Policy</a> | <a href="/sitemap.xml">Sitemap</a></p>
+            </div>
         </div>
     </footer>
 
