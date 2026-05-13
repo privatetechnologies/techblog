@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" id="blogHtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Dynamic Meta Tags - Will be filled by JavaScript -->
+    <meta name="description" content="" id="metaDescription">
+    <meta name="keywords" content="" id="metaKeywords">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="" id="ogTitle">
+    <meta property="og:description" content="" id="ogDescription">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="" id="ogUrl">
+    <meta property="og:image" content="">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="" id="twitterTitle">
+    <meta name="twitter:description" content="" id="twitterDescription">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="" id="canonicalUrl">
+    
+    <title id="blogTitle">Loading...</title>
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- JSON-LD for BlogPosting -->
+    <script type="application/ld+json" id="blogJsonLd">
+    {}
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/" style="text-decoration: none;"><h2>Tech<span>Blog</span></h2></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/blogs.html">All Blogs</a></li>
+                <li><a href="/categories/erp.html">ERP</a></li>
+                <li><a href="/categories/cloud.html">Cloud</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="blog-post-container">
+        <div class="container">
+            <article class="full-blog-post">
+                <div class="breadcrumb">
+                    <a href="/">Home</a> &gt; 
+                    <a href="/blogs.html">Blogs</a> &gt; 
+                    <span id="breadcrumbCategory"></span> &gt; 
+                    <span id="breadcrumbTitle"></span>
+                </div>
+                
+                <h1 id="postTitle"></h1>
+                
+                <div class="post-meta">
+                    <span class="post-category" id="postCategory"></span>
+                    <span class="post-date" id="postDate"></span>
+                    <span class="post-read-time" id="readTime"></span>
+                </div>
+                
+                <div class="post-content" id="postContent"></div>
+                
+                <div class="post-footer">
+                    <div class="share-buttons">
+                        <span>Share this article:</span>
+                        <a href="#" id="shareTwitter" target="_blank">Twitter</a>
+                        <a href="#" id="shareLinkedin" target="_blank">LinkedIn</a>
+                        <a href="#" id="shareFacebook" target="_blank">Facebook</a>
+                    </div>
+                    
+                    <div class="author-box">
+                        <h4>About the Author</h4>
+                        <p>TechBlog expert team brings years of experience in ERP and business technology consulting.</p>
+                    </div>
+                </div>
+            </article>
+            
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h3>Related Posts</h3>
+                    <div id="relatedPosts"></div>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>Categories</h3>
+                    <ul id="sidebarCategories">
+                        <li><a href="/categories/erp.html">ERP</a></li>
+                        <li><a href="/categories/cloud.html">Cloud Computing</a></li>
+                        <li><a href="/categories/ai.html">AI & ML</a></li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>Newsletter</h3>
+                    <form id="sidebarNewsletter">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechBlog</h3>
+                    <p>Expert insights on business technology</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/blogs.html">All Blogs</a></li>
+                        <li><a href="/about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
